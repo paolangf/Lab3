@@ -1,6 +1,8 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Insets;
+import java.awt.Polygon;
+
 import javax.swing.JPanel;
  
 public class MyPanelClass extends JPanel {
@@ -37,7 +39,6 @@ public class MyPanelClass extends JPanel {
 //                        g.drawLine(x1, y2, x2, y1);
                         
                         g.setColor(Color.LIGHT_GRAY);
-                        g.fillOval(70, 70, 55, 55);
-            
-            }
+                        g.fillOval((width/2)-27,(height/2)-27,55,55);
+			}
 }
